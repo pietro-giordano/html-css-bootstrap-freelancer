@@ -10,11 +10,6 @@ header .col-5 {
       height: 400px;
 }
 
-.card {
-      height: 200px;
-      background-color: var(--bs-pink);
-}
-
 .height100 {
       height: 100px;
 }
