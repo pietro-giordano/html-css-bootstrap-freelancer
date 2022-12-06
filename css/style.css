@@ -14,3 +14,11 @@ header .col-5 {
       height: 200px;
       background-color: var(--bs-pink);
 }
+
+.height100 {
+      height: 100px;
+}
+
+.height200 {
+      height: 200px;
+}
