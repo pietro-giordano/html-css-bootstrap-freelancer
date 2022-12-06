@@ -9,3 +9,8 @@ header .col-5 {
 .jumbotron .row .col-12 {
       height: 400px;
 }
+
+.card {
+      height: 200px;
+      background-color: var(--bs-pink);
+}
