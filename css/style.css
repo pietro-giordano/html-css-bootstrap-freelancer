@@ -1,0 +1,11 @@
+header .col-5 {
+      height: 50px;
+}
+
+.jumbotron {
+      height: 400px;
+}
+
+.jumbotron .row .col-12 {
+      height: 400px;
+}
