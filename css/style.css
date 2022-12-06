@@ -22,3 +22,7 @@ header .col-5 {
 .height200 {
       height: 200px;
 }
+
+.bord {
+      border: 2px dashed white;
+}
