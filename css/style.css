@@ -1,9 +1,19 @@
-header .col-5 {
-      height: 50px;
+:root {
+      --bg-my-dark: #2C3E50;
+      --bg-my-darklight: #3A546D;
+      --bg-my-green: #1ABC9C;
 }
 
-.jumbotron {
-      height: 400px;
+header {
+      background-color: var(--bg-my-dark);
+}
+
+.custom-toggler {
+      border-color: white;
+}
+
+#jumbotron {
+      background-color: var(--bg-my-green);
 }
 
 .jumbotron .row .col-12 {
