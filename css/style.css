@@ -4,7 +4,7 @@
       --bg-my-green: #1ABC9C;
 }
 
-header {
+header, #footer-bottom {
       background-color: var(--bg-my-dark);
 }
 
@@ -12,7 +12,8 @@ header {
       border-color: white;
 }
 
-#jumbotron, #about {
+#jumbotron, #about,
+#send-button {
       background-color: var(--bg-my-green);
 }
 
@@ -20,3 +21,6 @@ header {
       color: var(--bg-my-dark);
 }
 
+#footer-top {
+      background-color: var(--bg-my-darklight);
+}
