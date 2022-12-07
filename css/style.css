@@ -12,22 +12,11 @@ header {
       border-color: white;
 }
 
-#jumbotron {
+#jumbotron, #about {
       background-color: var(--bg-my-green);
 }
 
-.jumbotron .row .col-12 {
-      height: 400px;
+#portfolio {
+      color: var(--bg-my-dark);
 }
 
-.height100 {
-      height: 100px;
-}
-
-.height200 {
-      height: 200px;
-}
-
-.bord {
-      border: 2px dashed white;
-}
