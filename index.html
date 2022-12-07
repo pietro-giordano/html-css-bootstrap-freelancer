@@ -7,8 +7,8 @@
       <title>StartBootstrap</title>
 
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.2/font/bootstrap-icons.min.css"
-            integrity="sha512-YFENbnqHbCRmJt5d+9lHimyEMt8LKSNTMLSaHjvsclnZGICeY/0KYEeiHwD1Ux4Tcao0h60tdcMv+0GljvWyHg=="
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+            integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
             crossorigin="anonymous" referrerpolicy="no-referrer" />
       <link rel="stylesheet" href="css/style.css">
 </head>
@@ -19,7 +19,7 @@
             <div class="container text-white">
                   <div class="row justify-content-between align-items-center">
                         <div class="col">
-                              <a class="navbar-brand" href="#">START BOOTSTRAP</a>
+                              <a class="navbar-brand fw-bold fs-md-5" href="#">START BOOTSTRAP</a>
                         </div>
 
                         <div class="col navbar navbar-dark navbar-expand-md justify-content-end">
@@ -50,16 +50,16 @@
 
             <section id="jumbotron">
                   <div class="container">
-                        <div class="row text-center text-white py-4">
+                        <div class="row text-center text-white p-4 p-md-5">
                               <div class="col">
-                                    <img src="img/avatar.svg" class="w-50" alt="avatar">
+                                    <img src="img/avatar.svg" class="pb-3" alt="avatar">
 
                                     <h1>START BOOTSTRAP</h1>
 
                                     <div>
-                                          <i class="bi bi-dash-lg"></i>
-                                          <i class="bi bi-star-fill"></i>
-                                          <i class="bi bi-dash-lg"></i>
+                                          <i class="fa-solid fa-minus"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-minus"></i>
                                     </div>
 
                                     <div>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</div>
@@ -75,9 +75,9 @@
                                     <h2>PORTFOLIO</h2>
 
                                     <div>
-                                          <i class="bi bi-dash-lg"></i>
-                                          <i class="bi bi-star-fill"></i>
-                                          <i class="bi bi-dash-lg"></i>
+                                          <i class="fa-solid fa-minus"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-minus"></i>
                                     </div>
                               </div>
                         </div>
@@ -118,9 +118,9 @@
                                           <h2>ABOUT</h2>
                                           
                                           <div>
-                                                <i class="bi bi-dash-lg"></i>
-                                                <i class="bi bi-star-fill"></i>
-                                                <i class="bi bi-dash-lg"></i>
+                                                <i class="fa-solid fa-minus"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-minus"></i>
                                           </div>
                                     </div>
 
@@ -139,7 +139,7 @@
                                     </div>
 
                                     <div>
-                                          <button class="btn btn-outline-light m-4"><i class="bi bi-download"></i> Download</button>
+                                          <button class="btn btn-outline-light m-4"><i class="fa-solid fa-download"></i> Download</button>
                                     </div>
                               </div>
                         </div>
@@ -154,32 +154,22 @@
                                           <h2>CONTACT ME</h2>
                                     
                                           <div>
-                                                <i class="bi bi-dash-lg"></i>
-                                                <i class="bi bi-star-fill"></i>
-                                                <i class="bi bi-dash-lg"></i>
+                                                <i class="fa-solid fa-minus"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-minus"></i>
                                           </div>
                                     </div>
 
-                                    <form action="" method="get">
-                                          <div>
-                                                <label for="name"></label>
-                                                <input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
-                                          </div>
-                                          <div>
-                                                <label for="email"></label>
-                                                <input type="email" class="form-control" id="email" name="email" placeholder="Email Address" required>
-                                          </div>
-                                          <div>
-                                                <label for="phone"></label>
-                                                <input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone Number" required>
-                                          </div>
-                                          <div>
-                                                <label for="text"></label>
-                                                <textarea name="text" class="form-control" id="text" rows="5" placeholder="Message"></textarea>
-                                          </div>
-                                          <div class="text-start">
-                                                <input type="submit" class="btn text-white" id="send-button" value="Send"> 
-                                          </div>
+                                    <form action="" method="get" class="text-start">                             
+                                          <input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
+                                    
+                                          <input type="email" class="form-control" id="email" name="email" placeholder="Email Address" required>
+                                    
+                                          <input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone Number" required>
+                                    
+                                          <textarea name="text" class="form-control" id="text" rows="5" placeholder="Message"></textarea>
+                                    
+                                          <input type="submit" class="btn text-white" id="send-button" value="Send">                              
                                     </form>
                               </div>
                         </div>
@@ -201,8 +191,10 @@
                               <div class="col-12">
                                     <h4>AROUND THE WEB</h4>
                                     <div>
-                                          <i class="bi bi-facebook"></i>
-
+                                          <span><i class="fa-brands fa-facebook-f"></i></span>
+                                          <span><i class="fa-brands fa-google-plus-g"></i></span>
+                                          <span><i class="fa-brands fa-twitter"></i></span>
+                                          <span><i class="fa-brands fa-linkedin-in"></i></span>
                                     </div>
                               </div>
                               <div class="col-12">
@@ -218,8 +210,8 @@
 
             <section id="footer-bottom">
                   <div class="container">
-                        <div class="row text-center text-white py-5">
-                              <div class="col">
+                        <div class="row text-center text-white p-5">
+                              <div class="col fs-6">
                                     Copyright C Your Website 2019
                               </div>
                         </div>
