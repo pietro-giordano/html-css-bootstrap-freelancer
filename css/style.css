@@ -16,7 +16,7 @@ header {
       background-color: var(--bg-my-green);
 }
 
-#portfolio {
+#portfolio, #contact {
       color: var(--bg-my-dark);
 }
 
