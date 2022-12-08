@@ -2,6 +2,7 @@
       --bg-my-dark: #2C3E50;
       --bg-my-darklight: #3A546D;
       --bg-my-green: #1ABC9C;
+      --bg-my-transparent-green: rgba(26, 188, 156, 0.6);
 }
 
 header, #footer-bottom {
@@ -10,6 +11,14 @@ header, #footer-bottom {
 
 .custom-toggler {
       border-color: white;
+}
+
+.nav-link {
+      font-size: 12px;
+}
+
+.nav-link:hover {
+      color: var(--bg-my-green) !important;
 }
 
 #jumbotron, #about,
@@ -29,19 +38,21 @@ header, #footer-bottom {
       width: 200px;
 }
 
+.my-over {
+      display: none;
+      background-color: var(--bg-my-transparent-green);
+}
+
+.my-card:hover .my-over {
+      display: block;
+}
+
 .form-control {
       border: 2px solid #ced4da;
 }
 
 .form-control:focus {
       box-shadow: none;
-}
-
-#footer-top span {
-      width: 50px;
-      height: 50px;
-      border-radius: 50%;
-      border: 1px solid white;
 }
 
 .circle {
@@ -51,20 +62,22 @@ header, #footer-bottom {
       border-radius: 50%;
 }
 
-#footer-top a {
+#footer-top a:last-child {
       color: var(--bg-my-green);
+      text-decoration: none;
+}
+
+#footer-top a:last-child:hover {
+      text-decoration: underline;
 }
 
 #footer-bottom {
       font-size: 12px;
 }
 
-/* #footer-top a:hover {
-      text-decoration: underline;
-} */
 .dash {
       height: 3px;
-      width: 50px;
+      width: 80px;
 }
 
 .dash-dark {
