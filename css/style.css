@@ -29,15 +29,19 @@ header, #footer-bottom {
       width: 200px;
 }
 
+.form-control {
+      border: 2px solid #ced4da;
+}
+
+.form-control:focus {
+      box-shadow: none;
+}
+
 #footer-top span {
       width: 50px;
       height: 50px;
       border-radius: 50%;
       border: 1px solid white;
-}
-
-#footer-bottom {
-      font-size: 12px;
 }
 
 .circle {
@@ -51,6 +55,22 @@ header, #footer-bottom {
       color: var(--bg-my-green);
 }
 
+#footer-bottom {
+      font-size: 12px;
+}
+
 /* #footer-top a:hover {
       text-decoration: underline;
 } */
+.dash {
+      height: 3px;
+      width: 50px;
+}
+
+.dash-dark {
+      background-color: #2C3E50;
+}
+
+.dash-light {
+      background-color: white;
+}
