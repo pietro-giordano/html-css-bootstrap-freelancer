@@ -62,6 +62,10 @@ header, #footer-bottom {
       border-radius: 50%;
 }
 
+.circle:hover {
+      background-color: rgba(255, 255, 255, 0.3);
+}
+
 #footer-top a:last-child {
       color: var(--bg-my-green);
       text-decoration: none;
